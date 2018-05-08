@@ -36,7 +36,7 @@ class HomeworkThreeTest(unittest.TestCase):
 
     def test_invalid_path(self):
         # Assert if improper exception is raised
-        self.assertRaises(ValueError, create_dataframe(HomeworkThreeTest.invalid_file_path))
+        self.assertRaises(ValueError, create_dataframe, HomeworkThreeTest.invalid_file_path)
 
 
 if __name__ == '__main__':
